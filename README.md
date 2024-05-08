@@ -1,4 +1,4 @@
-# Welcome to FanHero's Generative AI Repository
+# Welcome to FanHero Generative AI Repository
 
 This repository is home to the cutting-edge Generative AI initiatives by FanHero, an all-in-one platform designed to create, share, engage with community members, and monetize content effectively.
 
