@@ -1,6 +1,6 @@
-# Contributing to FanHero's Generative AI Challenges
+# Contributing to FanHero Generative AI Challenges
 
-We're excited that you're interested in contributing to FanHero's Generative AI Challenges! This document provides guidelines that will make the contribution process as smooth as possible.
+We're excited that you're interested in contributing to FanHero Generative AI Challenges! This document provides guidelines that will make the contribution process as smooth as possible.
 
 ## Contribution Process
 
@@ -35,5 +35,5 @@ Include a brief summary of your development process in a file named `DOCUMENTATI
 
 If you have any questions or need help with any step of the contribution process, please don't hesitate to open an issue, and someone from the team will get back to you.
 
-Thank you for contributing to FanHero's Generative AI Challenges!
+Thank you for contributing to FanHero Generative AI Challenges!
 
