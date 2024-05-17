@@ -109,8 +109,10 @@ def sentiment_analysis(current_user):
             json_ = request.json
             prediction = model.predict(vectorizer.transform(pd.Series(preprocess_text(json_['prompt']))))
             
-            if prediction[0][1] > 0.5:
+            if prediction[0][1] >= 0.55:
                 prediction_response = 'Positive'
+            elif prediction[0][1] > 0.45 and prediction[0][1] < 0.55:
+                prediction_response = 'Neutral'
             else:
                 prediction_response = 'Negative'
             return jsonify({
