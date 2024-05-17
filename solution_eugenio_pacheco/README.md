@@ -1,6 +1,6 @@
-## Gen AI Challenge
+## Gen AI Challenges
 
-### Objective
+### Objective Challenge 1: Sentiment Analysis API
 
 Construct a RESTful API that receives a text input (in English) and returns a sentiment analysis, indicating whether the general sentiment of the text is positive, neutral, or negative.
 
@@ -12,6 +12,18 @@ Construct a RESTful API that receives a text input (in English) and returns a se
    - The input text (prompt).
    - The categorized sentiment analysis.
 4. The API should be secure and only accept authenticated requests (suggestion: use API tokens for access).
+
+### Objective Challenge 2: Image Generation API
+
+Develop a RESTful API that, given a descriptive text prompt, generates an image corresponding to the description using AI.
+
+### Requirements
+
+1. The API should expose a POST /image-generation endpoint that accepts JSON data with a prompt field.
+2. Utilize a generative AI model capable of crafting images from text descriptions.
+3. The API's response should include either a URL to the generated image or the image itself encoded in base64.
+4. Ensure the API adequately handles requests and usage limits, potentially introducing a queuing system for resource-intensive requests.
+5. Include authentication to ensure that only authorized users can request image generation.
 
 ### About
 The API and the Sentiment Analysis AI model were developed using Python.
