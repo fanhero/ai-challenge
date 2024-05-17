@@ -1,4 +1,4 @@
-## Challenge 1: Sentiment Analysis API
+## Gen AI Challenge
 
 ### Objective
 
